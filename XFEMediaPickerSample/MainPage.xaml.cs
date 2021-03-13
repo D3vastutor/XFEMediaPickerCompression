@@ -6,7 +6,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
-using XFEMediaPickerSample.Utils;
 
 namespace XFEMediaPickerSample
 {
