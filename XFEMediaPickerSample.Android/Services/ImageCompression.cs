@@ -31,7 +31,7 @@ namespace XFEMediaPickerSample.Droid.Services
             return resizedImage;
         }
 
-        private object GetResizedImage(byte[] imageData, int compressionPercentage)
+        private byte[] GetResizedImage(byte[] imageData, int compressionPercentage)
         {
             Bitmap originalImage = BitmapFactory.DecodeByteArray(imageData, 0, imageData.Length);
             using (MemoryStream ms = new MemoryStream())
